@@ -1,0 +1,26 @@
+Create a virtual environment:
+
+python -m venv venv
+----------------------------------------------------
+Activate it on Windows:
+
+.\venv\Scripts\Activate.ps1
+------------------------------------------------------
+Install dependencies:
+
+pip install -r requirements.txt
+------------------------------------------------------
+Create a .env file:
+
+THEIRSTACK_API_KEY=your_api_key
+OLLAMA_MODEL=llama3.1:8b
+------------------------------------------------------------------
+Make sure Ollama is installed and the model is available:
+
+ollama list
+--------------------------------------------------------------------
+Run the application:
+
+python -m streamlit run app.py
+
+X#===============================================X=========================================================#X

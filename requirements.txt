@@ -1,0 +1,7 @@
+# Requirements for the job search app
+
+streamlit
+pandas
+requests
+python-dotenv
+openpyxl
